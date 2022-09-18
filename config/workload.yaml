@@ -29,10 +29,9 @@ spec:
       ref:
         branch: main
       url: https://github.com/trisberg/new-java-rest-service
-  serviceClaims:
-    - name: postgres-db
-      ref:
-        apiVersion: sql.tanzu.vmware.com/v1
-        kind: Postgres
-        name: postgres-database
-    
+  # serviceClaims:
+  #   - name: postgres-db
+  #     ref:
+  #       apiVersion: sql.tanzu.vmware.com/v1
+  #       kind: Postgres
+  #       name: postgres-database
