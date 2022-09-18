@@ -1,0 +1,3 @@
+ignore:
+  - vulnerability: CVE-2016-1000027
+exclude: ["**/maven-wrapper.jar"]
