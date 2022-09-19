@@ -10,4 +10,4 @@ spec:
   owner: default-team
   system: test
   providesApis:
-    - customer-profile
+    - customer-profile-api
